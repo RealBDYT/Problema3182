@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int z;
+    int n;
+
+    cout<<"Cate zile dureaza un an pe marte??"<<endl;
+    cin>>z;
+
+    cout<<"Cate zile a trait lggle??"<<endl;
+    cin>>n;
+
+    cout<<"Lumanari pe tort:"<<endl;
+    cout<<n / z<<endl;
+
+    return 0;
+}
